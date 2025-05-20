@@ -1,5 +1,13 @@
+/*
+Nome: Gabrielly Reis
+Disciplina: Fundamentos da Programação Web
+Data: 19/05/2025
+Descrição: Estilos principais do portfólio, incluindo layout, navegação, formulários, listas, botões e foto de perfil.
+*/
+
 /* style.css - Estilo principal do portfólio */
 body {
+  /* Define fonte, margens, cor de fundo e cor padrão do texto */
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
@@ -7,11 +15,13 @@ body {
   color: #222;
 }
 header {
+  /* Estiliza o cabeçalho e o texto do menu */
   background: #222;
   color: #fff;
   padding: 20px 0;
 }
 nav ul {
+  /* Layout horizontal do menu de navegação */
   list-style: none;
   display: flex;
   justify-content: center;
@@ -20,15 +30,18 @@ nav ul {
   padding: 0;
 }
 nav ul li a {
+  /* Estilo dos links do menu */
   color: #fff;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s;
 }
 nav ul li a:hover {
+  /* Cor ao passar o mouse nos links do menu */
   color: #ff9800;
 }
 main {
+  /* Área principal centralizada com fundo branco e sombra */
   max-width: 800px;
   margin: 40px auto;
   background: #fff;
@@ -37,6 +50,7 @@ main {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 main p {
+  /* Estilo dos parágrafos principais */
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 18px 28px;
@@ -49,6 +63,7 @@ main p {
   letter-spacing: 0.01em;
 }
 main ul {
+  /* Estilo das listas principais */
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 18px 28px;
@@ -62,24 +77,30 @@ main ul {
   list-style: disc inside;
 }
 main ul li {
+  /* Espaçamento entre itens da lista */
   margin-bottom: 10px;
 }
 main ul a {
+  /* Estilo dos links dentro das listas */
   color: #222;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s;
 }
 main ul a:visited {
+  /* Cor dos links visitados */
   color: #222;
 }
 main ul a:active {
+  /* Cor dos links ativos */
   color: #ff9800;
 }
 main ul a:hover {
+  /* Cor dos links ao passar o mouse */
   color: #ff9800;
 }
 footer {
+  /* Estilo do rodapé */
   text-align: center;
   padding: 15px 0;
   background: #222;
@@ -87,6 +108,7 @@ footer {
   width: 100%;
 }
 form {
+  /* Layout do formulário de contato */
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -94,12 +116,14 @@ form {
 input,
 textarea,
 button {
+  /* Estilo dos campos e botões do formulário */
   padding: 10px;
   border-radius: 4px;
   border: 1px solid #ccc;
   font-size: 1em;
 }
 button {
+  /* Estilo do botão de envio */
   background: #ff9800;
   color: #fff;
   border: none;
@@ -108,14 +132,17 @@ button {
   transition: background 0.3s;
 }
 button:hover {
+  /* Cor do botão ao passar o mouse */
   background: #e68900;
 }
 .foto-perfil {
+  /* Centraliza a foto de perfil */
   display: flex;
   justify-content: center;
   margin-bottom: 25px;
 }
 .foto-perfil img {
+  /* Estilo da imagem de perfil */
   width: 180px;
   height: 180px;
   object-fit: cover;

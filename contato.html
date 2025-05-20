@@ -1,3 +1,9 @@
+<!-- 
+Nome: Gabrielly Reis 
+Disciplina: Fundamentos da Programação Web 
+Data: 19/05/2025 
+Descrição: Página de contato do portfólio com formulário para envio de nome, e-mail e mensagem, exibindo confirmação após o envio. 
+-->
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -8,6 +14,7 @@
   </head>
   <body>
     <header>
+      <!-- Menu de navegação principal -->
       <nav>
         <ul>
           <li><a href="index.html">Início</a></li>
@@ -20,6 +27,7 @@
     </header>
     <main>
       <h1>Contato</h1>
+      <!-- Formulário de contato com campos obrigatórios -->
       <form id="formContato">
         <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome" required />
@@ -32,12 +40,14 @@
 
         <button type="submit">Enviar</button>
       </form>
+      <!-- Mensagem de confirmação exibida após envio do formulário -->
       <p
         id="mensagem-confirmacao"
         style="display: none; color: green; font-weight: bold; margin-top: 15px"
       ></p>
     </main>
     <footer>
+      <!-- Rodapé com direitos autorais -->
       <p>&copy; 2025</p>
     </footer>
     <script src="script.js"></script>
